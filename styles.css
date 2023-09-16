@@ -113,7 +113,6 @@ nav > ul > li > a {
 }
 
 #contact {
-  /* background-color: #000; */
   padding-top: 1px;
   padding-bottom: 10px;
 }
@@ -131,7 +130,6 @@ nav > ul > li > a {
 }
 
 #social-icons > a {
-  /* color: white; */
   color: #0000D0;
   text-decoration: none;
 } 
