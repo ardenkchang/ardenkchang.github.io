@@ -1,4 +1,8 @@
-body, h1, h2, p {
+body,
+h1,
+h2,
+h3,
+p {
   margin: 0;
   padding: 0;
 }
@@ -22,19 +26,19 @@ header {
   text-align: center;
 }
 
-nav > ul {
+nav>ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-nav > ul > li {
+nav>ul>li {
   font-weight: bold;
   font-size: 20px;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
   text-decoration: none;
   color: #ADD8E6;
 }
@@ -47,20 +51,20 @@ nav > ul > li > a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#welcome-section > h1 {
+#welcome-section>h1 {
   color: #ADD8E6;
   font-weight: bold;
   font-size: 36px;
   margin-bottom: 10px;
 }
 
-#welcome-section > p {
+#welcome-section>p {
   color: #FC6A03;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-#welcome-section > img {
+#welcome-section>img {
   max-width: 450px;
   height: 380px;
 }
@@ -71,13 +75,13 @@ nav > ul > li > a {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#about > h1 {
+#about>h2 {
   text-align: center;
   color: #ADD8E6;
   font-size: 28px;
 }
 
-#about > p {
+#about>p {
   text-align: center;
   color: #000;
   padding: 10px 0;
@@ -94,14 +98,14 @@ nav > ul > li > a {
   padding: 30px 0 20px 0;
 }
 
-#projects > h1 {
+#projects>h2 {
   text-align: center;
   color: #ADD8E6;
   font-weight: bold;
   font-size: 28px;
 }
 
-#projects > .project-tile {
+#projects>.project-tile {
   gap: 20px;
   display: flex;
   flex-direction: column;
@@ -110,13 +114,13 @@ nav > ul > li > a {
   width: 50%;
 }
 
-.project-tile > h2 {
+.project-tile>h3 {
   text-align: center;
   font-weight: bold;
   font-size: 26px;
 }
 
-.project-tile > p {
+.project-tile>p {
   text-align: center;
   font-size: 16px;
   padding-bottom: 10px;
@@ -136,7 +140,7 @@ nav > ul > li > a {
   padding-bottom: 10px;
 }
 
-#contact > h1 {
+#contact>h2 {
   color: #ADD8E6;
   text-align: center;
 }
@@ -148,7 +152,7 @@ nav > ul > li > a {
   padding: 20px 0 10px 0;
 }
 
-#social-icons > a {
+#social-icons>a {
   color: #0000D0;
   text-decoration: none;
-} 
+}
